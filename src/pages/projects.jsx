@@ -62,7 +62,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projetos - Anderson Raulino</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."

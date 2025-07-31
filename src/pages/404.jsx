@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <>
       <Head>
-        <title>Page not found</title>
+        <title>Página não encontrada.</title>
       </Head>
       <Container className="flex h-full items-center pt-16 sm:pt-32">
         <div className="flex flex-col items-center">
@@ -15,13 +15,13 @@ export default function NotFound() {
             404
           </p>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Page not found
+            Página não encontrada.
           </h1>
           <p className="mt-4 text-base text-zinc-600 dark:text-zinc-400">
-            Sorry, we couldn’t find the page you’re looking for.
+            Desculpe, não conseguimos encontrar a página desejada.
           </p>
           <Button href="/" variant="secondary" className="mt-4">
-            Go back home
+            Voltar para o home
           </Button>
         </div>
       </Container>

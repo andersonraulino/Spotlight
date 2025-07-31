@@ -41,7 +41,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Anderson Raulino</title>
+        <title>Sobre - Anderson Raulino</title>
         <meta
           name="description"
           content="I’m Spencer Sharp. I live in New York City, where I design the future."
@@ -61,36 +61,31 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Eu sou Anderson. Sou de São Paulo onde nasci e cresci.
+              <p>Me chamo Anderson.</p>
+              <p>Sou de São Paulo onde nasci e cresci.</p>
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                Sou um aspirante à carreira em TI. Meus primeiros estudos sobre
-                a área foram sobre algoritmos, esse foi meu primeiro passo para
-                querer me tornar um Desenvolvedor capacitado e de sucesso.
+                Sou um entusiasta em início de jornada na área de Tecnologia da Informação. 
+                Meu primeiro contato foi com o estudo de algoritmos, o que despertou em mim o desejo 
+                de me tornar um desenvolvedor capacitado e de sucesso.
               </p>
               <p>
-                Hoje tendo conhecimentos em HTML, CSS e JS, venho buscando 
-                me desenvolver cada vez mais. Diante disso, pretendo aprender
-                novas linguagens, técnicas e tecnologias. Atualmente estou estudando 
-                React, utilizando as plataformas Alura e Rocketseat, e desenvolvendo
-                projetos para facilitar meu aprendizado.
+                Atualmente, tenho conhecimentos em Python, HTML, CSS, SQL e PowerBI, e sigo
+                em constante evolução. Tenho focado meus estudos em banco de dados, utilizando
+                plataformas como Alura e Curso em Vídeo, além de desenvolver projetos próprios 
+                para colocar em prática o que aprendo.
               </p>
               <p>
-               Quero puder crescer nessa área que tenho tanta paixão. Escolhi essa 
-               área pra seguir, porque sempre tive afinidade por ela e quero puder
-               acompanhar e evoluir junto com ela até eu não poder mais. Esse é o 
-               incrivel da tecnologia, ela está sempre em desenvolvimento e é fantástico 
-               acompanhar esse desenvolvimento.
+                Tenho muita paixão por essa área. Escolhi a tecnologia porque sempre tive 
+                com ela e acredito no seu poder de transformação. Quero crescer profissionalmente 
+                acompanhando sua evolução — que é contínua, empolgante e cheia de possibilidades.
               </p>
              </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href="#" icon={TwitterIcon}>
-                Follow on Twitter
-              </SocialLink>
-              <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+              <SocialLink href="https://instagram.com/black_raulino" icon={InstagramIcon} className="mt-4">
                 Follow on Instagram
               </SocialLink>
               <SocialLink href="https://github.com/andersonraulino" icon={GitHubIcon} className="mt-4">

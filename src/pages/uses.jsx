@@ -29,7 +29,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Anderson Raulino</title>
+        <title>Ferramentas - Anderson Raulino</title>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."
@@ -37,7 +37,7 @@ export default function Uses() {
       </Head>
       <SimpleLayout
         title="Software I use, gadgets I love, and other things I recommend."
-        intro="Compartilhando sobre as coisas que uso para construir software. Aqui está uma grande lista de todas as minhas coisas favoritas."
+        intro="Compartilhando sobre as ferramentas que utilizo nos meus projetos. Aqui está uma grande lista de todas as minhas ferramentas favoritas."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">

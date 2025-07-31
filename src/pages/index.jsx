@@ -184,7 +184,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Anderson Raulino - Web Developer
+          Anderson Raulino - Dev Back-end
         </title>
         <meta
           name="description"
@@ -200,19 +200,16 @@ export default function Home({ articles }) {
             Estudante apaixonado por tecnologia
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Sou Anderson. Desenvolvedor Web, moro na cidade de São Paulo. Neste espaço
-            compartilho conhecimentos que adquiri durante minha jornada Dev. Além disso,
+            <p>Oioi, sou o Anderson, desenvolvedor Web, moro na cidade de São Paulo.</p>
+            <p>
+            Neste espaço compartilho conhecimentos que adquiri durante minha jornada Dev. Além disso,
             vou apresentar projetos que desenvolvi durante meus estudos e ferramentas que
-            venho utilizando,  com o intuito de contribuir para a comunidade de desenvolvedores.
+            venho utilizando, com o intuito de contribuir para a comunidade de desenvolvedores.
+            </p>
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            />
-            <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/black_raulino"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
